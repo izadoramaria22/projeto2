@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <title>Indo ao Trabalho</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Cenario-passo0.webp" alt="João se preparando para o trabalho">
+            <p>Era uma manhã fresca e clara, e João estava se preparando para mais um dia de trabalho. Ele precisava decidir entre um trajeto seguro ou um trajeto curto.</p>
+            <button class="btn-proximo" data-proximo="1">Trajeto Seguro</button>
+            <button class="btn-proximo" data-proximo="2">Trajeto Curto</button>  
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="Cenario-passo1.jpg" alt="Estrada tranquila">
+            <p>João escolheu o trajeto seguro, evitando a chuva. Ele pedalou calmamente e se deparou com um cruzamento.</p>
+            <button class="btn-proximo" data-proximo="3">Caminho pela Floresta</button>
+            <button class="btn-proximo" data-proximo="4">Caminho ao Longo do Lago</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="Cenario-Passo2.jpg" alt="João pedalando">
+            <p>João decidiu pelo trajeto curto. Ele pedalou rapidamente, mas encontrou um grupo de patos no caminho.</p>
+            <button class="btn-proximo" data-proximo="5">Continuar e Admirar os Patos</button>
+            <button class="btn-proximo" data-proximo="6">Seguir em Frente Ignorando</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.jpg" alt="João na floresta">
+            <p>Escolhendo o caminho pela floresta, João se sentiu em harmonia com a natureza. Ele encontrou uma árvore caída bloqueando seu caminho.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar Passar pela Árvore</button>
+            <button class="btn-proximo" data-proximo="8">Voltar e Escolher outro Caminho</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpg" alt="João ao lago">
+            <p>O caminho ao longo do lago era bonito. João parou para admirar a vista e avistou uma ponte à frente.</p>
+            <button class="btn-proximo" data-proximo="9">Cruzar a Ponte</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela Margem do Lago</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="Cenario-passo5.jpg" alt="João admirando os patos">
+            <p>João decidiu parar e admirar os patos. Ele se sentiu relaxado e continuou seu caminho.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar a Pedalar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="Cenario-passo6.jpg" alt="João pedalando rapidamente">
+            <p>João ignorou os patos e pedalou rapidamente. Ele encontrou um mercado e decidiu parar.</p>
+            <button class="btn-proximo" data-proximo="12">Entrar no Mercado</button>
+            <button class="btn-proximo" data-proximo="13">Continuar pelo Caminho Principal</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="Cenario-passo7.jpg" alt="João tentando passar pela árvore">
+            <p>João tentou passar pela árvore e, com sucesso, seguiu adiante até chegar a uma linda clareira.</p>
+            <button class="btn-proximo" data-proximo="14">Descansar na Clareira</button>
+            <button class="btn-proximo" data-proximo="15">Continuar a Pedalar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="Cenario-passo8.jpg" alt="João voltando">
+            <p>João decidiu voltar e escolher outro caminho, que o levou a um lindo parque.</p>
+            <button class="btn-proximo" data-proximo="16">Explorar o Parque</button>
+            <button class="btn-proximo" data-proximo="17">Seguir para o Trabalho</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="Cenario-passo9.jpg" alt="João cruzando a ponte">
+            <p>João cruzou a ponte e sentiu-se aliviado. Ele avistou uma praça cheia de flores.</p>
+            <button class="btn-proximo" data-proximo="18">Descansar na Praça</button>
+            <button class="btn-proximo" data-proximo="19">Seguir em Frente para o Trabalho</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="Cenario-passo10.jpg" alt="João seguindo pela margem do lago">
+            <p>João seguiu pela margem do lago e encontrou um café. Ele decidiu parar para um lanche.</p>
+            <button class="btn-proximo" data-proximo="20">Parar para um Lanche</button>
+            <button class="btn-proximo" data-proximo="21">Continuar Pedalando</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="Cenario-passo11.jpg" alt="João continuando a pedalar">
+            <p>Após admirar os patos, João continuou seu caminho e chegou ao trabalho feliz e satisfeito com suas escolhas.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="Cenario-passo12.jpg" alt="João no mercado">
+            <p>João entrou no mercado e comprou um lanche. Ele estava pronto para continuar sua jornada.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="Cenario-passo13.jpg" alt="João seguindo pelo caminho principal">
+            <p>João seguiu pelo caminho principal e, após um tempo, chegou ao trabalho animado e satisfeito.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="Cenario-passo14.jpg" alt="João descansando na clareira">
+            <p>Na clareira, João descansou um pouco antes de seguir em frente. Ele se sentiu revigorado.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="Cenario-passo15.jpg" alt="João continuando a pedalar">
+            <p>Decidindo não parar, João pedalou e finalmente chegou ao trabalho, satisfeito com seu trajeto.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="Cenario-passo16.jpg" alt="João explorando o parque">
+            <p>No parque, João se deparou com um festival local e decidiu explorar um pouco antes de seguir para o trabalho.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <img src="Cenario-passo17.jpg" alt="João seguindo para o trabalho">
+            <p>João decidiu seguir para o trabalho, pronto para um dia produtivo.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="Cenario-passo18.jpg" alt="João descansando na praça">
+            <p>Na praça, João aproveitou a tranquilidade e se sentiu revigorado antes de continuar sua jornada.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="Cenario-passo19.jpg" alt="João seguindo em frente para o trabalho">
+            <p>João seguiu em frente, entusiasmado com o trabalho que o aguardava.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <img src="Cenario-passo20.jpg" alt="João parando para um lanche">
+            <p>João decidiu parar para um lanche. Ele se sentiu satisfeito e pronto para continuar.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <img src="Cenario-passo21.jpg" alt="João continuando a pedalar">
+            <p>João optou por continuar pedalando. Ele estava determinado a chegar ao trabalho rapidamente.</p>
+            <button class="btn-proximo" data-proximo="22">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <img src="Cenario-passo21(1).jpg" alt="João no trabalho">
+            <p>Finalmente, João chegou ao trabalho, satisfeito com as escolhas que fez ao longo do caminho!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
